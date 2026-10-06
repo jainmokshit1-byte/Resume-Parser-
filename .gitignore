@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+fixtures/
+resume for testing/
+demo_data/*.pdf
+.claude/
+CLAUDE.md

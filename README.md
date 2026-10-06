@@ -1,5 +1,7 @@
 # NLP-Based Resume Screening and Job Matching System
 
+**Live demo:** https://resume-screening-mj.streamlit.app/
+
 Academic project. Upload a resume PDF, paste a job description, get a 0 to 100 match score, a label, and matched and missing skills.
 
 **Pipeline:** PDF text → clean → tokenize → remove stop words → skill extraction → stemming → TF-IDF + cosine similarity (job's words only) → 50/50 score → label.
